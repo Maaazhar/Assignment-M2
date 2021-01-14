@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.button-color
+{
+    background-image: linear-gradient(#a2bb44, #86a21b);
+    border-radius: 30%;
+}
+.offering
+{
+    font-size: 50px;
+    font-stretch: extra-expanded;
+}
+.panguin-slide
+{
+    background-color: #eefdd1d2;
+    border-radius: 2em;
+}
+.panguin-slide .panguin-carousel
+{
+    height: 40em;
+}
+.panguin-card-bg
+{
+    background-color: rgb(235, 235, 235);
+    border-radius: 2%;
+    margin: 1em;
+    height: 100%;
+}
+.text-color
+{
+    color: #363958;
+}
+.section-name
+{
+    color: #86a21b;
+}
+body a
+{
+    text-decoration: none;
+}
+
+.about-item
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}

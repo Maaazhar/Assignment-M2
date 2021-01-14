@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="images/icons/icon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section class="container ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded mt-2 ms-5 me-5 ps-2 pe-2 fixed-top text-color">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/icons/logo.png" width="250" height="40" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                          </a>
+                          <ul class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item rounded" href="#kidswear">Kidswear</a></li>
+                            <li><a class="dropdown-item rounded" href="#menswear">Menswear</a></li>
+                            <li><a class="dropdown-item rounded" href="#womenswear">Womenswear</a></li>
+                          </ul>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#about-us">About us</a>
+                          </li>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#contact-us" >Contact us</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2 pb-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success pb-2" type="submit">Search</button>
+                      <a href="#panguin-smaile">
+                        <img src="images/icons/cart1.png" class="ms-3" height="50" width="50" alt="">
+                      </a>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </section>
+        
+        <section class="container mt-4 pt-4 mb-5  border-bottom border-light text-color">
+            <div id="carouselExampleControls" class=" carousel slide panguin-slide  mt-5 " data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                  <!-- <h1 class=" d-flex justify-content-center pt-5">New Arrival</h1> -->
+                  <div class="carousel-item panguin-carousel active">
+                    <div class="row d-flex align-items-center ps-5 pe-5">
+                        <div class="col-md-7">
+                          <h1>Parachute Jacket for Kids</h1>
+                          <p>
+                            This is a new imported comfortable and warm parachute cloth jacket for kids.
+                          </p>
+                          <h3 class=" fw-bold text-danger">$250</h3>
+                          <a href="#kidswear">
+                            <button  class="button-color btn p-3 text-light">
+                                <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                                BUY NOW
+                            </button>
+                          </a>
+                        </div>
+                        <div class="col-md-5 pt-5 pb-5">
+                            <img src="images/children jacket/children-jacket0.png"  class="d-block w-100" alt="...">
+                        </div>
+                    </div>                  </div>
+                    <div class="carousel-item panguin-carousel">
+                    <div class="row d-flex align-items-center ps-5 pe-5 ">
+                        <div class="col-md-7">
+                          <h1>Parachute Jacket for Mens</h1>
+                          <p>
+                            This is a new imported comfortable and warm parachute cloth jacket for mens.
+                          </p>
+                          <h3 class=" fw-bold text-danger">$550</h3>
+                          <a href="#menswear">
+                            <button  class="button-color btn p-3 text-light">
+                                <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                                BUY NOW
+                            </button>
+                          </a>
+                        </div>
+                        <div class="col-md-5 ">
+                            <img src="images/mans jacket/mans-jacket0.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item panguin-carousel">
+                    <div class="row d-flex align-items-center ps-5 pe-5">
+                        <div class="col-md-7 pt-5 pb-5">
+                          <h1>Sun Bright Jacket for Womens</h1>
+                          <p>
+                            This is a new imported comfortable and warm pure cotton cloth jacket for womens.
+                          </p>
+                          <h3 class=" fw-bold text-danger">$850</h3>
+                          <a href="#womenswear">
+                            <button  class="button-color btn p-3 text-light">
+                                <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                                BUY NOW
+                            </button>
+                          </a>
+                        </div>
+                        <div class="col-md-5 pt-5 mt-5">
+                            <img src="images/womens jacket/womens-jacket0.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="panguin-smaile" class="container mt-5 border-bottom border-light text-color">
+            <div class="row row-cols-1 row-cols-md-2 h-100 g-4 d-flex align-items-center">
+                <div>
+                    <h1 class="fw-bold offering"><span class="text-warning ">BE THE PENGUIN</span><br>OF WINTER</h1>
+                    <h5>Buy from this web store and become a <span class="text-danger">PENGUIN</span> of the Penguin Fashion Community.</h5.>
+                    <br><br>
+                    <small><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW
+                    </button>   </small>
+                </div>
+                <div>
+                    <img class="w-100 ms-2 ps-2" src="images/panguin-smile.png" alt="">
+    
+                </div>
+            </div>
+        </section>
+
+        <section id="kidswear" class="container mt-5 pt-5 border-bottom border-light text-color">
+            <h1 class="fw-bold mb-5 section-name">KIDSWEAR</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg pt-2">
+                        <img src="images/children jacket/children-jacket0.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Red Parachute </h3>
+                    <p class="card-text">This is a new imported comfortable and warm parachute cloth jacket for kids.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold">$250</h2>
+                    <small class="text-muted"></small><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg">
+                        <img src="images/children jacket/children-jacket1.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Pink Comfort </h3>
+                    <p class="card-text">This is a new imported comfortable and warm parachute cloth jacket for kids.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold ">$199</h2>
+                    <small class="text-muted"><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg pt-2">
+                        <img src="images/children jacket/children-jacket2.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Winter Panther </h3>
+                    <p class="card-text">This is a new imported comfortable and warm parachute cloth jacket for kids.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold ">$350</h2>
+                    <small class="text-muted"><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="menswear" class="container mt-5 pt-5 border-bottom border-light text-color">
+            <h1 class="fw-bold mb-5 section-name">MENSWEAR</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg pt-3">
+                        <img src="images/mans jacket/mans-jacket0.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Yellow Parachute </h3>
+                    <p class="card-text">This is a new imported comfortable and warm parachute cloth jacket for mens.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold">$550</h2>
+                    <small class="text-muted"><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg">
+                        <img src="images/mans jacket/mans-jacket1.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Dark Desire </h3>
+                    <p class="card-text">This is a new imported comfortable and warm parachute cloth jacket for mens.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold ">$530</h2>
+                    <small class="text-muted"><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg pt-5">
+                        <img src="images/mans jacket/mans-jacket2.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Leather Winter </h3>
+                    <p class="card-text">This is a new imported comfortable and warm leather jacket for mens.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold ">$750</h2>
+                    <small class="text-muted"><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="womenswear" class="container mt-5 pt-5 pb-5 border-bottom border-light text-color">
+            <h1 class="fw-bold mb-5 section-name">WOMENSWEAR</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg pt-5">
+                        <img src="images/womens jacket/womens-jacket0.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Cotton Yellow </h3>
+                    <p class="card-text">This is a new imported comfortable and warm Cotton jacket for womens.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold">$850</h2>
+                    <small class="text-muted"><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg pt-3">
+                        <img src="images/womens jacket/womens-jacket1.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Red Desire Leather </h3>
+                    <p class="card-text">This is a new imported comfortable and warm Leather jacket for womens.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold ">$720</h2>
+                    <small class="text-muted"><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100 rounded shadow">
+                    <div class="panguin-card-bg">
+                        <img src="images/womens jacket/womens-jacket2.png" class="card-img-top" alt="...">
+                    </div>
+                  <div class="card-body">
+                    <h3 class="fw-bold">Winter Shield Nylon </h3>
+                    <p class="card-text">This is a new imported comfortable and warm nylon cloth jacket for womens.</p>
+                  </div>
+                  <div class="d-flex justify-content-around align-items-center mt-2 mb-3">
+                    <h2 class="text-warning fw-bold ">$750</h2>
+                    <small class="text-muted"><button  class="button-color btn p-3 text-light">
+                        <img class="me-4" src="images/icons/cart.png" height="25" width="30" alt="">  
+                        BUY NOW</button>
+                    </small>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="about-us" class="container mt-5 pt-5 mb-5  border-bottom border-light text-color">
+            <div class="row row-cols-1 row-cols-md-2 h-100 g-4 d-flex justify-content-around align-items-center">
+                <div >
+                    <div class="d-flex justify-content-around align-items-center md-6 rounded shadow">
+                        <div class="me-4 ms-5" >
+                            <img src="images/icons/shop.png" height="85" width="80" alt="">
+                        </div>
+                        <div class="m-3 pe-5">
+                            <h4 class="fw-bold">Find the Perfect Fit</h4>
+                            <p>Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>                   
+                    <div class="d-flex justify-content-around align-items-center rounded shadow">
+                        <div class="me-4 ms-5 " >
+                            <img src="images/icons/box.png" height="85" width="80" alt="">
+                        </div>
+                        <div class="m-3 pe-5">
+                            <h4 class="fw-bold">Free Exchanges</h4>
+                            <p>One of the many reasons you can shop with peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around align-items-center rounded shadow">
+                        <div class="me-4 ms-5" >
+                            <img src="images/icons/support.png" height="85" width="80" alt="">
+                        </div>
+                        <div class="m-3 pe-5">
+                            <h4 class="fw-bold">Contact Our Seller</h4>
+                            <p>They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-100 ms-2 ps-2" src="images/icons/online-marketing.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="container pb-5 border-bottom border-light text-color">
+            <div class=" text-center">
+                    <h1 class="fw-bold section-name">About us</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 h-100 g-4 d-flex justify-content-around align-items-center">
+                <div>
+                    <img class="w-100 ms-2 ps-2" src="images/icons/eCommerce_world-wide.png" alt="">
+                </div>
+                <div>               
+                    <div class="d-flex justify-content-around align-items-center rounded shadow">
+                        <div class="me-4 ms-5" >
+                            <img src="images/icons/eCommerce-laptop.png" height="85" width="80" alt="">
+                        </div>
+                        <div class="m-3 pe-5">
+                            <h4 class="fw-bold">We Make Your Life Easier</h4>
+                            <p>In your day to day life you don't have to go out just for buy something, we are always here for response your need.</p>
+                        </div>
+                    </div>                   
+                    <div class="d-flex justify-content-around align-items-center rounded shadow">
+                        <div class="me-4 ms-5 " >
+                            <img src="images/icons/Safe-eCommerce.png" height="85" width="80" alt="">
+                        </div>
+                        <div class="m-3 pe-5">
+                            <h4 class="fw-bold">We Keep It Safe</h4>
+                            <p>From price paymant to product delivary, our each operation is handled by separate expart team. So you have to worry for nothing.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-around align-items-center rounded shadow">
+                        <div class="me-4 ms-5" >
+                            <img src="images/icons/Green-eCommerce.png" height="85" width="80" alt="">
+                        </div>
+                        <div class="m-3 pe-5">
+                            <h4 class="fw-bold">We Appreciate Nature</h4>
+                            <p>From product pick-up to delivery, in our every movement we mean no harm to the nature.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section id="contact-us" class="container border-bottom border-light">
+            <div class="row text-color">
+                    <h1 class="fw-bold text-center section-name">Contact us</h1>
+                <div class="col">
+                    <h4 class="fw-bold">If you have something to say.</h4>
+                    <textarea class="form-control shadow" placeholder="Leave us a Feedback." name="" id="" cols="30" rows="3"></textarea>
+                    <input class="form-control mt-1 shadow" placeholder="Enter your email here." id="" cols="30" rows="1" type="email">
+                    <div class="d-flex flex-row-reverse "> 
+                        <button  class="button-color btn mt-2 pt-2 pb-2 ps-5 pe-5 text-light">SUBMIT</button>
+                    </div>
+                </div>
+                <div class="col ">
+                    <h3 class="fw-bold text-center ms-5 mb-4 ps-5 ">Find us on.</h3>
+                    <div class="d-flex justify-content-center align-items-center ps-5 ms-5">
+                        <a target="_blank" href="https://www.facebook.com/MAAAZHAAAR/"><img class="m-2" src="images/icons/facebook.svg"  height="80" width="80" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/maaazhaaar/"><img class="m-2" src="images/icons/instagram.svg"  height="80" width="80"  alt=""></a>
+                        <a target="_blank" href="https://twitter.com/maaazhaaar"><img class="m-2" src="images/icons/twitter.svg"  height="80" width="80"  alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-secondary pe-4 text-end text-light">
+        <hr>
+        <small>
+            <p>© Penguin Shop | All right reserved by <a class=" text-light" target="_blank" href="https://www.linkedin.com/in/md-mazharul-islam-225064183/">Mazharul Islam.</p>
+        </small>
+        <hr>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
